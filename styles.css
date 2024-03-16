@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 2em;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+h1{
+    border-bottom: 2px solid rgb(159, 159, 201);
+    text-align: center;
+}
+.mhcont{
+    height:320px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin: 3em 0;
+    align-content: center;
+}
+span{
+    font-weight: bold;
+}
+p{
+    font-size: 20px;
+    margin-top: 2em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.site{
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+.card1,
+.card2,
+.card3{
+   display: flex;
+   border: 2px solid blue;
+   border-radius: 2em;
+   overflow: hidden;
+   padding: 0.2em;
+   background-color: lightblue;
+   max-width: 100px;
+   max-height: 100px;
+}
+
+.card1:hover,
+.card2:hover,
+.card3:hover{
+   box-shadow: 0 0 2em 0.5em red;
+   max-width: 300px;
+   max-height: 300px;
+}
+
+button{
+    font-size: 20px;
+    padding: 5px 20px;
+    color: blue;
+    font-weight: 400;
+    border-radius: 0.5em;
+    background-color: lightpink;
+}
+button:hover{
+    box-shadow: 0 0 0.5em 0.1em lightcoral;
+}
+.button-container{
+    margin-top: 3em;
+    display: flex;
+    justify-content: space-around;
+}
+#small{
+    display: block;
+   width: 150px;
+   margin: 5em auto;
+   background-color: azure;
+}
+
+@media (width <=600px){
+    .mhcont{
+        height: 200px;
+    }
