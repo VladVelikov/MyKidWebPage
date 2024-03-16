@@ -88,3 +88,12 @@ button:hover{
     .mhcont{
         height: 200px;
     }
+   
+.card1,
+.card2,
+.card3{
+   
+   max-width: 50px;
+   max-height: 50px;
+}
+    }
